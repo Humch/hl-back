@@ -1,0 +1,128 @@
+{
+  "isAccepted" : null,
+  "_id" : "troncommun",
+  "company" : "Formulaire Général",
+  "name" : "troncommun",
+  "items" : [
+    {
+      "question" : {
+        "choices": [],
+        "_id": "fs_question1",
+        "category": "identité",
+        "name": "Nom Prénom",
+        "type": "string",
+        "default_label": "Nom Prénom",
+        "common_core": true,
+        "__v": 0
+      },
+      "label" : "Nom Prénom",
+      "answer" : ""
+    },
+    {
+      "question" : {
+        "choices": [],
+        "_id": "fs_question2",
+        "category": "adresse",
+        "name": "Adresse",
+        "type": "textarea",
+        "default_label": "Saisissez votre adresse",
+        "common_core": true,
+        "__v": 0
+      },
+      "label" : "Saisissez votre adresse",
+      "answer" : ""
+    },
+    {
+      "question" : {
+        "choices": [
+          "profession libérale",
+          "commerçant artisan",
+          "cadre dirigeant",
+          "cadre",
+          "employé",
+          "retraité",
+          "étudiant",
+          "sans profession",
+          "autres"
+        ],
+        "_id": "fs_question3",
+        "category": "professional",
+        "name": "situation professionnelle",
+        "type": "radio",
+        "default_label": "Quelle est votre situation professionnelle ?",
+        "common_core": true,
+        "__v": 0
+      },
+      "label" : "Quelle est votre situation professionnelle ?",
+      "answer" : ""
+      },
+      {
+        "question" : {
+          "choices": [],
+          "_id": "fs_question4",
+          "category": "birth date",
+          "name": "date de naissance",
+          "type": "date",
+          "default_label": "Quelle est votre date de naissance ?",
+          "common_core": true,
+          "__v": 0
+        },
+        "label" : "Quelle est votre date de naissance ?",
+        "answer" : ""
+        },
+        {
+          "question" : {
+            "choices": [
+              "compléter vos revenus",
+              "transmettre un patrimoine",
+              "valoriser votre capital",
+              "préparer votre retraite",
+              "se protéger contre les coups durs",
+              "acheter un bien",
+              "réduire vos impots",
+              "investir de l'argent mis de côté"
+            ],
+            "_id": "fs_question5",
+            "category": "goals_and_preferences",
+            "name": "objectifs",
+            "type": "checkbox",
+            "default_label": "Pour quelle(s) raison(s) investissez-vous ?",
+            "common_core": true,
+            "__v": 0
+          },
+          "label" : "Pour quelle(s) raison(s) investissez-vous ?",
+          "answer" : ""
+        },
+        {
+          "question" : {
+            "choices": [
+              1, 5
+            ],
+            "_id": "fs_question6",
+            "category": "goals_and_preferences",
+            "name": "horizon d'investissement",
+            "type": "ranges",
+            "default_label": "Quel est votre horizon d'investissement pour ces actifs ?",
+            "common_core": true,
+            "__v": 0
+          },
+          "label" : "Quel est votre horizon d'investissement pour ces actifs ?",
+          "answer" : ""
+        },
+        {
+          "question" : {
+            "choices": [],
+            "_id": "fs_question7",
+            "category": "justificatif d'identité",
+            "name": "pièce d'identité",
+            "type": "file",
+            "default_label": "Selectionnez votre justificatif d'identité",
+            "common_core": true,
+            "_v": 0
+          },
+          "label" :  "Selectionnez votre justificatif d'identité",
+          "answer": ""
+        }
+    ],
+    "__v" : 0
+}
