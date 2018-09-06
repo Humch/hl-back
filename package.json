@@ -7,6 +7,9 @@
     "start": "node ./bin/start",
     "test": "mocha --recursive './test/*Test.js' --compilers js:babel-core/register"
   },
+  "engines": {
+    "node": "10.9.0"
+  },
   "dependencies": {
     "babel-core": "^6.25.0",
     "babel-polyfill": "^6.23.0",
