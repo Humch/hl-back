@@ -4,11 +4,11 @@
   "private": true,
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./bin/start",
     "test": "mocha --recursive './test/*Test.js' --compilers js:babel-core/register"
   },
   "engines": {
-    "node": "10.9.0"
+    "npm": "5.6.x"
   },
   "dependencies": {
     "babel-core": "^6.25.0",
